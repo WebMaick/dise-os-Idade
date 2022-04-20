@@ -1,0 +1,56 @@
+.detalle__container {
+  padding: 0 1rem;
+}
+.principal__catalogo {
+  position: relative;
+}
+
+.principal__catalogo svg {
+  width: 150px;
+  height: 150px;
+}
+
+.principal__catalogo .principal__catalogo-btn {
+  border: 0;
+  border-radius: 50%;
+  outline: none;
+}
+
+.principal__catalogo-detail {
+  border-radius: 4px;
+  position: absolute;
+  top: 50%;
+  transform: rotate(-25deg);
+  transition: transform 0.3s ease-in-out;
+}
+
+.principal__catalogo-detail p {
+  margin: 0;
+  padding: 0.3rem 0.625rem;
+}
+
+.principal__catalogo-btn:hover .principal__catalogo-detail {
+  transform: rotate(0);
+}
+.principal__catalogo-btn:hover .principal__catalogo-detail p {
+  color: aqua;
+}
+
+.somos__container {
+  border-radius: 4px;
+  -webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
+  background-color: var(--bg-card-color);
+}
+
+.somos__container p {
+  font-size: 1rem;
+}
+
+@media screen and (min-width: 992px) {
+  .somos__container p {
+    font-size: 1.1rem;
+  }
+}

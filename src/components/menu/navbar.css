@@ -1,0 +1,13 @@
+.nav__link-a {
+  font-weight: 100;
+}
+
+.nav__link-a a {
+  color: #000 !important;
+  font-size: 18px !important;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav__link-a a:hover {
+  color: var(--red) !important;
+}
