@@ -2,9 +2,9 @@ import React from 'react'
 import { CarouselHeader } from './CarouselHeader'
 
 const imagenes = [
-  { slider: 'foto1.jpeg', descripcion: 'Cortinas de Seda' },
-  { slider: 'foto2.jpeg', descripcion: 'Cortinas Corredizas ' },
-  { slider: 'foto3.jpeg', descripcion: 'Tapiceria color negro' },
+  { slider: 'ffoto1.jpeg', descripcion: 'Cortinas de Seda' },
+  { slider: 'ffoto2.jpeg', descripcion: 'Cortinas Corredizas ' },
+  { slider: 'ffoto3.jpeg', descripcion: 'Tapiceria color negro' },
   { slider: 'foto4.jpeg', descripcion: 'Cortinas Corredizas' },
 ]
 

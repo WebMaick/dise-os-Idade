@@ -15,7 +15,12 @@ export const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container">
         <Link className="navbar-brand" to={'/'}>
-          <img src={logo} alt="logo-ideda" loading="lazy" width="70px" />
+          <img
+            src={logo}
+            alt="logo-ideda"
+            loading="lazy"
+            className="navbar__img-log"
+          />
         </Link>
         <button
           className="navbar-toggler"

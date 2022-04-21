@@ -11,3 +11,19 @@
 .nav__link-a a:hover {
   color: var(--red) !important;
 }
+
+.navbar__img-log {
+  width: 80px;
+}
+
+@media screen and(min-width: 48rem) {
+  .navbar__img-log {
+    width: 100px;
+  }
+}
+@media screen and (min-width: 62rem) {
+  .navbar__img-log {
+    width: 80%;
+    height: 80%;
+  }
+}
