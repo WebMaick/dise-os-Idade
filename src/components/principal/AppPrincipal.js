@@ -3,8 +3,10 @@ import { Detalle } from './Detalle'
 import { Header } from './Header'
 import { Parallax } from './Parallax'
 import { Productos } from './Productos'
+import { Servicios } from './Servicios'
 
 import './appprincipal.css'
+import { ProyectosRecientes } from './ProyectosRecientes'
 
 export const AppPrincipal = () => {
   return (
@@ -22,7 +24,10 @@ export const AppPrincipal = () => {
           <Parallax title="Diseños Para tu HOGAR" />
         </section>
         <section>
-          <div className="my-5">hola maick</div>
+          <Servicios />
+        </section>
+        <section className="container">
+          <ProyectosRecientes />
         </section>
       </main>
 

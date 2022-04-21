@@ -1,0 +1,10 @@
+@media screen and (min-width: 48rem) {
+  .producto__subtitle {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 62rem) {
+  .producto__subtitle {
+    font-size: 1.2rem;
+  }
+}
