@@ -7,6 +7,8 @@ import { Servicios } from './Servicios'
 
 import './appprincipal.css'
 import { ProyectosRecientes } from './ProyectosRecientes'
+import { Footer } from '../footer/Footer'
+import { Galeria } from './Galeria'
 
 export const AppPrincipal = () => {
   return (
@@ -26,10 +28,17 @@ export const AppPrincipal = () => {
         <section>
           <Servicios />
         </section>
+        <section className="">
+          <Galeria />
+        </section>
         <section className="container">
           <ProyectosRecientes />
         </section>
       </main>
+
+      <footer>
+        <Footer />
+      </footer>
 
       <a
         href="https://api.whatsapp.com/send?phone=68166974&text=Hola!%20Quieres%20contactarte%20con%20nosotros!"

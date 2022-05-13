@@ -5,7 +5,7 @@ const imagenes = [
   { slider: 'ffoto1.jpeg', descripcion: 'Cortinas de Seda' },
   { slider: 'ffoto2.jpeg', descripcion: 'Cortinas Corredizas ' },
   { slider: 'ffoto3.jpeg', descripcion: 'Tapiceria color negro' },
-  { slider: 'foto4.jpeg', descripcion: 'Cortinas Corredizas' },
+  { slider: 'ffoto4.jpg', descripcion: 'Cortinas Corredizas' },
 ]
 
 export const ProyectosRecientes = () => {

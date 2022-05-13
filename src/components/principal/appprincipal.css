@@ -1,5 +1,6 @@
 .app__principal {
   position: relative;
+  min-height: 100vh;
 }
 
 .btn__flotante-what {
